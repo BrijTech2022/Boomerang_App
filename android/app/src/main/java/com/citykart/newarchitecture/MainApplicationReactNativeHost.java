@@ -1,4 +1,4 @@
-package com.citykart.newarchitecture;
+package com.boomerang.trade.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -20,9 +20,9 @@ import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.citykart.BuildConfig;
-import com.citykart.newarchitecture.components.MainComponentsRegistry;
-import com.citykart.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.boomerang.trade.BuildConfig;
+import com.boomerang.trade.newarchitecture.components.MainComponentsRegistry;
+import com.boomerang.trade.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

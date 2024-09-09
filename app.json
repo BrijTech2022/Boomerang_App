@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "CityKart",
-    "slug": "CityKart",
+    "name": "Boomerang",
+    "slug": "Boomerang",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ]
   },
-  "name": "CityKart"
+  "name": "Boomerang"
 }

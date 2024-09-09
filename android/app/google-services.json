@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "830218650507",
+    "project_id": "boomerang-6ad21",
+    "storage_bucket": "boomerang-6ad21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830218650507:android:6f5c31e0c72b60e61f258e",
+        "android_client_info": {
+          "package_name": "com.boomerang.trade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ctlIMhhePeAa3KgXTCzJRn0nhYD61Hk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

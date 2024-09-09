@@ -1,4 +1,4 @@
-package com.citykart.newarchitecture.components;
+package com.boomerang.trade.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

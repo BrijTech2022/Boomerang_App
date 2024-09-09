@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.citykart">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.boomerang.trade">
 
   <uses-permission android:name="android.permission.INTERNET"/>
   <!-- OPTIONAL PERMISSIONS, REMOVE WHATEVER YOU DO NOT NEED -->
@@ -7,6 +7,7 @@
   <!-- These require runtime permissions on M -->
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.CAMERA"/>
   <!-- END OPTIONAL PERMISSIONS -->
 
   <queries>
@@ -17,6 +18,13 @@
       <data android:scheme="https" />
     </intent>
   </queries>
+  <queries>
+   <package android:name="com.phonepe.app" />                        
+    <package android:name="com.google.android.apps.nbu.paisa.user" /> 
+    <package android:name="net.one97.paytm" />                        
+    <package android:name="in.org.npci.upiapp" />                     
+    <package android:name="in.amazon.mShop.android.shopping" />       
+</queries>
 
   <application android:name=".MainApplication" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" android:allowBackup="false" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="YOUR-APP-URL-HERE"/>
